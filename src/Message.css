@@ -1,0 +1,32 @@
+.message
+{
+    display:flex;
+  
+    align-items:center;
+    margin:15px;
+    width:fit-content;
+    
+    justify-content: space-between;
+    position:relative;
+}
+
+.message > p{
+
+    border-radius: 20px;
+    background-color: #f3f3f5;
+    padding:15px;
+    margin:10px;
+    font-weight: medium;
+    margin-right:auto;
+}
+
+.message > small{
+
+    color:grey;
+    font-size:8px;
+
+    position:absolute;
+    bottom:-5px;
+    right:0px;
+
+}

@@ -1,0 +1,45 @@
+.login
+{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.login__logo{
+
+    flex:1;
+
+    height:120px;
+    width:100%;
+    object-fit: contain;
+    flex:1;
+}
+
+
+.login__page
+{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    padding:20px;
+    margin:auto;
+    
+}
+
+
+login__button{
+ 
+   width:300px;
+   background-color:lightseagreen;
+
+
+}
+
+.login__button:hover{
+    color:blue;
+    background-color:blue;
+}
